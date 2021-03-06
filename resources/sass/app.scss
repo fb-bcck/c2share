@@ -1,0 +1,165 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html{
+    min-height:100%;
+}
+
+table{
+    border: 4px darkgreen;
+}
+#maintext{
+    margin:auto;
+}
+
+.welcomePics {
+    margin:auto;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+.row{
+    margin-bottom:50px;
+}
+.founderPics {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    margin: 0 auto;
+
+}
+html{
+    height: 100%;
+}
+
+body{
+    background-color: $brightgreen;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+#main{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom:170px; /* this needs to be bigger than footer height*/
+}
+.footer{
+    font-size: 2em;
+    position: relative;
+    margin-top: -220px; /* negative value of footer height */
+    height: 40px;
+    clear:both;
+    padding-top:5px;
+
+}
+#app{
+    min-height: 100%;
+}
+
+
+.jumbotron{
+    background-color: rgba(171, 255, 165, 0);
+
+}
+
+.list-unstyled li a{
+    color: black;
+}
+
+.form-control:focus {
+    border-color: $brightgreen;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(130, 213, 152, 0.6);
+}
+
+.btn{
+    color: $darkgreen ;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 5px;
+    margin: 5px;
+    border: 4px solid $darkgreen !important;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+
+.btn:hover{
+    color: white;
+    border-radius: 30px;
+    background: $greenmedium;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-danger{
+    color: red;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 5px;
+    margin: 5px;
+    border: 4px solid red !important;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+.btn-danger:hover{
+    color: black;
+    border-radius: 30px;
+    background: #ffffff;
+    transition: all 0.3s ease 0s;
+}
+
+
+#footer li a{
+    text-decoration: none;
+
+}
+#footer li a:hover{
+    font-weight: bolder;
+
+}
+.navbar-brand:hover{
+
+    transition: all 0.3s ease 0s;
+}
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+}
+
